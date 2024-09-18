@@ -1,8 +1,17 @@
-//TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
-// click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
+import kotlinx.coroutines.DelicateCoroutinesApi
+import kotlinx.coroutines.GlobalScope
+import kotlinx.coroutines.launch
+import kotlinx.coroutines.runBlocking
+
 fun main() {
 
-    DirGenerator().generate();
+
+    mergeSortedArray()
+
+
+//    runBlocking {
+//        DirGenerator().generate();
+//    }
 
 }
 
